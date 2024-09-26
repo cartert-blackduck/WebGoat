@@ -89,7 +89,8 @@ public class SqlInjectionChallenge extends AssignmentEndpoint {
     }
     return attackResult;
   }
-
+  // Need to close the connection. 
+    
   private AttackResult checkArguments(String username_reg, String email_reg, String password_reg) {
     if (StringUtils.isEmpty(username_reg)
         || StringUtils.isEmpty(email_reg)
