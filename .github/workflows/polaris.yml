@@ -28,7 +28,7 @@ jobs:
         polaris_application_name: cartert-blackduck-github
         polaris_project_name: cartert-webgoat
         # Enable GitHub workflow to upload a zipfile of source.
-        # polaris_assessment_mode: "SOURCE_UPLOAD"
+        polaris_assessment_mode: "SOURCE_UPLOAD"
         polaris_prComment_enabled: 'true'
         polaris_prComment_severities: 'high,critical,medium'
         polaris_reports_sarif_create: 'true'
